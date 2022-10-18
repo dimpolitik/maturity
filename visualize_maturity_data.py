@@ -18,12 +18,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from operator import itemgetter
-import shapefile as shp
-from shapely.geometry import Polygon
-from descartes.patch import PolygonPatch
 import math
-import pydeck as pdk
 import altair as alt
 
 st.set_page_config(layout="wide")
